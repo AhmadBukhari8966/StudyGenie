@@ -358,8 +358,8 @@ with tab4:
 
 st.markdown("---")
 st.markdown(
-    “”” Study Smart. Stress Less. Graduate Strong.
-© 2026 StudyGenie™ · Built for the future of learning “””
+    """ Study Smart. Stress Less. Graduate Strong.
+© 2026 StudyGenie™ · Built for the future of learning """
 )
 
 
