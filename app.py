@@ -14,15 +14,13 @@ st.set_page_config(
     page_icon="🎓",
     layout="wide"
 )
-if "api_key" not in st.session_state:
-    st.session_state.api_key = ""
-    
+
 def get_openai_client():
     """
     Returns an OpenAI client if the package is installed
     and OPENAI_API_KEY is available.
     """
-    api_key = st.session_state.get("api_key") or os.getenv("OPENAI_API_KEY")
+    api_key = os.getenv("insert_API_key")
     if OpenAI is not None and api_key:
         return OpenAI(api_key=api_key)
     return None
