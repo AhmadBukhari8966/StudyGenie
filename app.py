@@ -247,14 +247,6 @@ with st.sidebar:
     st.write("- .md")
     st.write("- .csv")
 
-    st.write(
-        "During your demo, show:\n"
-        "1. Upload notes\n"
-        "2. Click Summarize\n"
-        "3. Generate quiz\n"
-        "4. Create study plan"
-    )
-
 
 uploaded_file = st.file_uploader(
     "Upload your notes",
