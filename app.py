@@ -237,11 +237,7 @@ Meet your all-in-one AI study assistant
 )
 
 with st.sidebar:
-    st.header("⚙️ Setup")
-    st.write("To enable real AI features, set your OpenAI API key as an environment variable:")
-    st.code("OPENAI_API_KEY=your_api_key_here")
-    st.write("Without an API key, the app still works in basic fallback mode.")
-
+    
     st.header("📁 Supported Files")
     st.write("- .txt")
     st.write("- .md")
