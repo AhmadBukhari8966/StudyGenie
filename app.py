@@ -20,7 +20,7 @@ def get_openai_client():
     Returns an OpenAI client if the package is installed
     and OPENAI_API_KEY is available.
     """
-    api_key = os.getenv("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")
+    api_key = os.getenv("insert_API_key")
     if OpenAI is not None and api_key:
         return OpenAI(api_key=api_key)
     return None
